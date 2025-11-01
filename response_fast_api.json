@@ -1,0 +1,11 @@
+{
+  "balance": 21350,
+  "historical_transactions": [
+    "Depósito: +R$10000.00",
+    "Saque: -R$1000.00",
+    "Saque: -R$1500.00",
+    "Saque: -R$450.00",
+    "Saque: -R$700.00",
+    "Depósito: +R$15000.00"
+  ]
+}
