@@ -67,20 +67,21 @@ Saldo total: R$100.00
 ...
 
 # API:
-# Deposit 50
+## Deposit 50
 curl -X POST "http://127.0.0.1:8000/deposit/50"
-# Response:
+## Response:
 {"balance":50.0,"historical_transactions":["Depósito: +R$50.00"]}
 
-# Check balance/history
+## Check balance/history
 curl "http://127.0.0.1:8000/balance"
-# Response:
+## Response:
 {"balance":50.0,"historical_transactions":["Depósito: +R$50.00"]}
 
-# Withdraw 20
+## Withdraw 20
 curl -X POST "http://127.0.0.1:8000/withdraw/20"
-# Response:
+## Response:
 {"balance":30.0,"historical_transactions":["Depósito: +R$50.00","Saque: -R$20.00"]}
+
 
 
 
