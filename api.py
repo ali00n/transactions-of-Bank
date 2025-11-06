@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from classes import Classes
 
 app = FastAPI()
-my_bank = Classes()  # mesma classe usada no console
+my_bank = Classes()
 
 @app.get("/")
 def home():
